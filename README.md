@@ -87,6 +87,7 @@
 5. 지하철역 위치 정보를 가져와 X, Y 좌표와 매칭, 거리를 계산하여 역세권 여부 컬럼 생성 (500미터 미만 = 제1역세권, 1키로미터 미만 = 제2역세권)
 6. 21~23년 데이터 증강 (약간의 노이즈 추가) 
 7. 모델에 추가 시계열성 정보 제공을 위해 거래량의 7, 14, 30, 60, 90일 이동평균선 컬럼 생성
+8. 거래량 변동성 지표 생성: 단위 기간별 거래량의 표준편차, 장기 추세 확인을 위해 직전년도 대비 거래량 변화율율
 
 ## 4. Modeling
 ### Model descrition
@@ -96,25 +97,25 @@
 
 ### Modeling Process
 
-1. 모델 
+1. EDA 진행
+2. 데이터 전처리 및 파생변수 생성
+3. 데이터 분할: train, test 세트 8:2,  random-state=10으로 통일
+4. 모델학습
+5. valid 세트, test 세트 성능 체크
+6. 피팅: 하이퍼파라미터 튜닝, 변수조정, 파생변수 추가 등
+7. 성능체크 및 추가피팅
 
 ## 5. Result
-
 ### Leader Board
 
-- _Insert Leader Board Capture_
-- _Write rank and score_
+![image](https://github.com/user-attachments/assets/3bd0d654-e8ce-4949-b976-ca9a2702bd89)
+
 
 ### Presentation
 
-- _Insert your presentaion file(pdf) link_
+
 
 ## etc
 
 ### Meeting Log
-
-- _Insert your meeting log link like Notion or Google Docs_
-
-### Reference
-
-- _Insert related reference_
+https://www.notion.so/5-be90a55ea6504d81b0aea6bc6a92b019
