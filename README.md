@@ -108,8 +108,7 @@
 ## 5. Result
 ### Leader Board
 
-![image](https://github.com/user-attachments/assets/3bd0d654-e8ce-4949-b976-ca9a2702bd89)
-
+![image](https://github.com/user-attachments/assets/448365f5-f876-443d-a036-8cece59220b7)
 
 ### Presentation
 
