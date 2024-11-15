@@ -113,6 +113,7 @@
 
 ### Presentation
 
+[Upstage AI Lab 5기_5조_ML발표(최종).pdf](https://github.com/user-attachments/files/17770181/Upstage.AI.Lab.5._5._ML.pdf)
 
 
 ## etc
